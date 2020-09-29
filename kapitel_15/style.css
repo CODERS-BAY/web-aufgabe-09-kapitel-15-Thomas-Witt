@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.eins {
+    background-color: rgb(102, 192, 150);
+    min-height: 8rem;
+}
+
+.zwei {
+    background-color: rgb(79, 151, 153);
+}
+
+.drei {
+    background-color: rgb(68, 97, 141);
+}
+
+.oneScreen {
+    padding: 0;
+    margin: 0;
+    border-style: dotted;
+    border-width: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twoPanel {
+    width: 50%;
+}
+
+.threePanel {
+    width: 33%;
+}
+
+.flex-container {
+    border-style: solid;
+    border-width: 2px;
+    height: 20rem;
+    width: 50rem;
+    display: flex;
+}
+
+.panel>div {
+    height: 25rem;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+}
+
+.flex-container-row {
+    flex-direction: row;
+    /* dieser Kontainer wäre nicht nötig, da "row" der default-wert von flex-direction ist. */
+}
+
+.flex-container-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-container-column {
+    flex-direction: column;
+}
+
+.flex-container-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-item {
+    background-color: rgb(26, 167, 26);
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.flex-container-justify-content-flex-start {
+    justify-content: flex-start;
+    /* Auch hier wäre dieser Kontainer nicht nötig, da "flex-start" der default-wert von justify-content ist. */
+}
+
+.flex-container-justify-content-center {
+    justify-content: center;
+}
+
+.flex-container-justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.flex-container-justify-content-space-between {
+    justify-content: space-between;
+}
